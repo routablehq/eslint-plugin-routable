@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "max-len": "off",
+    "no-restricted-properties": "off",
+    "no-restricted-syntax": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-useless-concat": "off",
+    "import/prefer-default-export": "off",
+    "prefer-destructuring": "off"
+  }
+}
