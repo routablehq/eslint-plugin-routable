@@ -47,6 +47,6 @@ Then configure the rules you want to use under the rules section.
 * Enforce separation between import path groups, relative imports for parents/children in the same module, and CSS imports
 after all other imports. ([`import-groups`])
 
-[`default-props-prefer-undefined`]: ./lib/docs/rules/exports-newlines.md
+[`default-props-prefer-undefined`]: ./lib/docs/rules/default-props-prefer-undefined.md
 [`exports-newlines`]: ./lib/docs/rules/exports-newlines.md
-[`import-groups`]: ./lib/docs/rules/exports-newlines.md
+[`import-groups`]: ./lib/docs/rules/import-groups.md
