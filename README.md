@@ -30,7 +30,6 @@ Add `routable` to the plugins section of your `.eslintrc` configuration file. Yo
 }
 ```
 
-
 Then configure the rules you want to use under the rules section.
 
 ```json
@@ -43,4 +42,11 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-`exports-newlines`
+* Prefer `undefined` default props over other empty values, e.g. `null`, `false`, `""`, etc. ([`default-props-prefer-undefined`])
+* Enforce a number of newlines before file exports. ([`exports-newlines`])
+* Enforce separation between import path groups, relative imports for parents/children in the same module, and CSS imports
+after all other imports. ([`import-groups`])
+
+[`default-props-prefer-undefined`]: ./lib/docs/rules/exports-newlines.md
+[`exports-newlines`]: ./lib/docs/rules/exports-newlines.md
+[`import-groups`]: ./lib/docs/rules/exports-newlines.md
