@@ -44,3 +44,11 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 `exports-newlines`
+
+## Development
+
+1. Clone the repo
+2. Run `npm link` in the project repo
+3. Navigate to the *other* project where you are using the plugin and run `npm link eslint-plugin-routable`
+4. Update the eslint configuration to turn on the rule
+5. Run eslint
