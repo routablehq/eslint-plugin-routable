@@ -52,3 +52,14 @@ Then configure the rules you want to use under the rules section.
 3. Navigate to the *other* project where you are using the plugin and run `npm link eslint-plugin-routable`
 4. Update the eslint configuration to turn on the rule
 5. Run eslint
+
+## Version updates
+
+To release a new version of this plugin:
+
+1. Open a PR targeting the master branch, updating the version number in both `package.json` and lockfile(s).
+2. Tag and publish a new release on GitHub
+   - example release tag: v1.3.12
+   - example release title: v.1.3.12
+   - succinctly summarize changes in the release notes
+3. In the frontend repository's `package.json`, update the `eslint-plugin-routable` version URL hash, and sync this to lockfile(s).
